@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-split-filename-dates",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "split filename based date metadata for Metalsmith",
   "main": "index.js",
   "scripts": {

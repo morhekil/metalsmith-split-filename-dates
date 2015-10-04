@@ -2,7 +2,6 @@ var path = require('path');
 
 module.exports = function(options){
   return function drafts(files, metalsmith, done){
-    console.log(files);
     Object.keys(files).forEach(function(name) {
       var m = name.match(/^(\d{4}-\d{2}-\d{2})-(.*)/);
       if (m) {
@@ -10,7 +9,6 @@ module.exports = function(options){
         f.date = new Date(m[1]);
         f.name = path.basename(m[2], path.extname(m[2]));
       }
-      console.log(files[name]);
     });
     done();
   };
