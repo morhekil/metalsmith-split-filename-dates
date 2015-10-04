@@ -1,0 +1,33 @@
+{
+  "name": "metalsmith-split-filename-dates",
+  "version": "0.0.1",
+  "description": "split filename based date metadata for Metalsmith",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morhekil/metalsmith-split-filename-dates"
+  },
+  "keywords": [
+    "date",
+    "filename",
+    "metalsmith",
+    "jekyll"
+  ],
+  "author": {
+    "name": "morhekil"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morhekil/metalsmith-split-filename-dates/issues"
+  },
+  "homepage": "https://github.com/morhekil/metalsmith-split-filename-dates",
+  "dependencies": {},
+  "devDependencies": {
+    "metalsmith": "^1.0.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
